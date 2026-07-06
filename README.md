@@ -1,11 +1,13 @@
 # Multiple Criteria Decision Making Under Xorness
 
-Multiple criteria decision making (MCDM) refers to making decisions in the presence of multiple, usually conflicting, criteria.
+Multiple criteria decision making (MCDM) refers to making decisions in the presence of multiple, conflicting, criteria.
 
-In this project, we extend and develop MCDM method to adress decision problems under Xorness.
+In this project, we extend and develop MCDM methods to adress multicriteria decision problems under Xorness.
 
 > **Xorness** is a class of uncertainty arising from *indeterminacy, exclusivity, and
-> hesitancy*. To quantify the concept of **XOR number** is proposed. It is finite set of distinct real values connected by an
+> hesitancy*.
+
+> To quantify the concept of **XOR number** is proposed. It is finite set of distinct real values connected by an
 > exclusive-or (XOR) relation, where exactly one value is the true value but its identity
 > remains indeterminate.
 
@@ -19,8 +21,7 @@ If you use this work, please cite it (see [`CITATION.cff`](CITATION.cff)).
 ## ✨ What this method does
 
 The XOR-WSM operates within an *[XOR-valued input → XOR-valued output]* decision system.
-Unlike earlier XOR methods that collapse XOR numbers into deterministic values, XOR-WSM
-preserves Xorness across every stage:
+XOR-WSM preserves Xorness across every stage:
 
 1. **XOR-decision matrix** — evaluations expressed as XOR numbers
 2. **XOR-Normalization** — element-wise, preserving XOR structure
