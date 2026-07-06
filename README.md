@@ -7,9 +7,12 @@ In this project, we extend and develop MCDM methods to adress multicriteria deci
 > **Xorness** is a class of uncertainty arising from *indeterminacy, exclusivity, and
 > hesitancy*.
 
-> To quantify the concept of **XOR number** is proposed. It is finite set of distinct real values connected by an
-> exclusive-or (XOR) relation, where exactly one value is the true value but its identity
-> remains indeterminate.
+▶️ Learn more about Xorness in [this short video](https://www.youtube.com/watch?v=OdQ2pHoLgNc).
+
+> To quantify the concept of **XOR number** is proposed.
+> It is finite set of distinct real values connected by an exclusive-or (XOR) relation,
+> where exactly one value is the true value
+> but its identity remains indeterminate.
 
 ## 📄 Paper
 
