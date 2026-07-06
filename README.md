@@ -2,8 +2,7 @@
 
 Multiple Criteria Decision Making (MCDM) is concerned with making decisions in the
 presence of multiple, conflicting criteria. In this project, we extend and develop
-MCDM methods to address multi-criteria decision problems under **Xorness** — a type
-of uncertainty arising from *indeterminacy, exclusivity, and hesitancy*.
+MCDM methods to address multi-criteria decision problems under **Xorness**.
 
 The methods here build on **XOR numbers**, the real-valued case of the **XOR sets**
 introduced in [Xorium Theory](https://xorium.org).
@@ -14,9 +13,8 @@ introduced in [Xorium Theory](https://xorium.org).
 
 ## What is the XOR-Weighted Sum Method (XOR-WSM)?
 
-The **XOR-Weighted Sum Method (XOR-WSM)** extends the classical Weighted Sum Method
-to operate entirely on XOR numbers. Unlike earlier XOR-based methods, which collapse
-XOR numbers into deterministic values, XOR-WSM operates within an
+The **XOR-Weighted Sum Method (XOR-WSM)** extends the deterministic Weighted Sum Method (WSM)
+to operate entirely on XOR numbers. XOR-WSM operates within an
 *[XOR-valued input → XOR-valued output]* decision system: it **preserves Xorness at
 every stage** of the decision process.
 
@@ -29,7 +27,7 @@ The method proceeds through the following steps:
 5. **Xorness measure** — an axiomatic measure quantifies the degree of indeterminacy, exclusivity, and hesitancy in each score.
 6. **Performance–Xorness (PXness) index** — alternatives are ranked via a total preorder, balancing performance against Xorness through a parameter γ ∈ [0, 1].
 
-The framework is demonstrated on a **cybersecurity risk assessment** of five
+The method is demonstrated on a **cybersecurity risk assessment** of five
 cyberthreat scenarios in energy systems.
 
 ---
