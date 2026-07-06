@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Multiple Criteria Decision Making Under Xorness"
+message: "If you use this work, please cite the associated paper."
+type: software
+authors:
+  - family-names: Hocine
+    given-names: Amin
+    orcid: "https://orcid.org/0000-0003-2480-5471"
+    affiliation: "University of Bergamo"
+url: "https://github.com/Amin-XORIUM/mcdm-under-xorness"
+preferred-citation:
+  type: article
+  title: "Multiple Criteria Decision Making Under Xorness"
+  authors:
+    - family-names: Hocine
+      given-names: Amin
+      orcid: "https://orcid.org/0000-0003-2480-5471"
+  journal: "Omega (under review)"
+  year: 2025
