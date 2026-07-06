@@ -30,15 +30,3 @@ The method proceeds through the following steps:
 The method is demonstrated on a **cybersecurity risk assessment** of five
 cyberthreat scenarios in energy systems.
 
----
-
-## 📫 Contact
-
-**Amin Hocine, PhD** — University of Bergamo
-
-- 🌐 Website: [xorium.org](https://xorium.org)
-- 🎓 [Google Scholar](https://scholar.google.com/citations?user=4T5gQj4AAAAJ&hl=en)
-- 🔗 [ORCID](https://orcid.org/0000-0003-2480-5471)
-- 💼 [LinkedIn](https://www.linkedin.com/in/amin-h-6bba7a265/)
-- 📧 [amin.hocine@unibg.it](mailto:amin.hocine@unibg.it)
-
