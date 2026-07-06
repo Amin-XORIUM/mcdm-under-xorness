@@ -1,11 +1,11 @@
 # Multiple Criteria Decision Making (MCDM) Under Xorness
 
 Reference implementation and materials for the **XOR-Weighted Sum Method (XOR-WSM)**,
-a multi-criteria decision-making (MCDM) framework that preserves **Xorness** throughout
+a multiple criteria decision making (MCDM) method to address **Xorness** throughout
 the entire decision process.
 
 > **Xorness** is a class of uncertainty arising from *indeterminacy, exclusivity, and
-> hesitancy*. An **XOR number** is a finite set of distinct real values connected by an
+> hesitancy*. To quantify the concept of **XOR number** is proposed, a finite set of distinct real values connected by an
 > exclusive-or (XOR) relation, where exactly one value is the true value but its identity
 > remains indeterminate.
 
