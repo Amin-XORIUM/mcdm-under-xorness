@@ -8,14 +8,12 @@ MCDM methods to address multi-criteria decision problems under **Xorness**.
 
 ---
 
-## What is Xorness?
+## What is Xorness and XOR number?
 
 
 > **Xorness** is a class of uncertainty arising from *indeterminacy, exclusivity, and
 > hesitancy*.
 
-
-## Xorness
 
 To better understand the underlying philosophy of the concept of *Xorness* and
 *XOR numbers*, consider the following example. Suppose a panel of experts is asked
@@ -58,7 +56,7 @@ operator yields a value of *true* if and only if the operands differ, meaning th
 one operand is true and the other is false. A proposition has a truth value: *true*
 is denoted by the binary digit 1, and *false* is denoted by the binary digit 0. This
 set of two binary values is called the Boolean domain. Many propositions in our daily
-life have easily determined truth values, such as "$2 < 3$." However, when the truth
+life have easily determined truth values, such as "2 < 3." However, when the truth
 is indeterminate, a central philosophical subject is introduced: the nature of truth
 and indeterminacy. According to the *Oxford English Dictionary*, indeterminacy refers
 to something that is difficult to identify exactly ("indeterminacy," 2024). In
@@ -88,55 +86,14 @@ represents an **XOR number**. The notions of *indeterminacy*, *exclusivity*, and
 
 [^1]: Russell pointed out in *An Inquiry into Meaning and Truth* that "or" can be used in two distinct ways: as inclusive-or or exclusive-or. Inclusive-or implies that either of the two given options can be true, or that both are true simultaneously. For example, if I say, "I will have either coffee or tea," I mean that I am willing to have either coffee or tea, or both if I choose. Exclusive-or (which is the case in this study), by contrast, means that only one of the two given options can be true, and not both. For example, if I say, "You can have either coffee or tea," using exclusive-or, I mean that you may choose one of the two options but not both (Russell, 1962).
 
-
-
-
-
+---
 
 ▶️ Learn more about Xorness in [this short video](https://www.youtube.com/watch?v=OdQ2pHoLgNc).
 
 ---
 
-## What is an XOR number?
-
-To quantify Xorness, we propose the concept of an **XOR number**: a finite set of
-distinct real values connected by an exclusive-or (XOR) relation, where exactly one
-value is the true value, but its identity remains indeterminate.
-
-For example, `4 XOR 5 XOR 6` states that the true value is 4, 5, or 6 — but which one
-remains unknown.
+For more theoritical details, see the Hocine (2026).
 
 ---
 
-## What is the XOR-Weighted Sum Method (XOR-WSM)?
 
-The XOR-WSM operates within an *[XOR-valued input → XOR-valued output]* decision system.
-Unlike earlier XOR methods, it preserves Xorness across **every** stage of the process:
-
-1. **XOR-decision matrix** — evaluations expressed as XOR numbers
-2. **XOR-normalization** — element-wise, preserving the XOR structure
-3. **Weighting** — scalar multiplication over XOR numbers
-4. **XOR-aggregation** — an additive operator producing a global XOR-performance score
-5. **Xorness measure** — quantifies indeterminacy, exclusivity, and hesitancy
-6. **Performance–Xorness (PXness) index** — ranks alternatives via a total preorder
-
----
-
-## 🧩 Core concepts
-
-- **XOR numbers** and their arithmetic operations (⊕, ⊖, ⊗, ⊘)
-- **Xorness measure** — an axiomatic measure of the degree of Xorness
-- **PXness index** — trade-off between performance and Xorness via a parameter γ ∈ [0,1]
-
----
-
-## 🔗 Related methods in the Xorness family
-
-`XOR-AHP` · `XOR-ANP` · `XOR-DEA` · `XOR-BWM` · `XOR-WSM`
-
----
-
-## 📫 Contact
-
-**Amin Hocine, PhD** — University of Bergamo
-🌐 [xorium.org](https://xorium.org) · 📧 amin.hocine@unibg.it
