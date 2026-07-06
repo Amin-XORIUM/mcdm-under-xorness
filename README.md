@@ -1,11 +1,11 @@
-# Multiple Criteria Decision Making (MCDM) Under Xorness
+# Multiple Criteria Decision Making Under Xorness
 
-Reference implementation and materials for the **XOR-Weighted Sum Method (XOR-WSM)**,
-a multiple criteria decision making (MCDM) method to address **Xorness** throughout
-the entire decision process.
+Multiple criteria decision making (MCDM) refers to making decisions in the presence of multiple, usually conflicting, criteria.
+
+In this project, we extend and develop MCDM method to adress decision problems under Xorness.
 
 > **Xorness** is a class of uncertainty arising from *indeterminacy, exclusivity, and
-> hesitancy*. To quantify the concept of **XOR number** is proposed, a finite set of distinct real values connected by an
+> hesitancy*. To quantify the concept of **XOR number** is proposed. It is finite set of distinct real values connected by an
 > exclusive-or (XOR) relation, where exactly one value is the true value but its identity
 > remains indeterminate.
 
@@ -23,7 +23,7 @@ Unlike earlier XOR methods that collapse XOR numbers into deterministic values, 
 preserves Xorness across every stage:
 
 1. **XOR-decision matrix** — evaluations expressed as XOR numbers
-2. **Normalization** — element-wise, preserving XOR structure
+2. **XOR-Normalization** — element-wise, preserving XOR structure
 3. **Weighting** — scalar multiplication over XOR numbers
 4. **XOR-aggregation** — additive operator producing a global XOR-performance score
 5. **Xorness measure** — quantifies indeterminacy, exclusivity, and hesitancy
@@ -31,8 +31,8 @@ preserves Xorness across every stage:
 
 ## 🧩 Core concepts
 
-- **XOR numbers** and their arithmetic operations (⊕, ⊖, ⊗, ⊘)
-- **Xorness measure** — an axiomatic measure of uncertainty
+- **XOR numbers** and their arithmetic operations
+- **Xorness measure** — an axiomatic measure of the dergee of Xorness
 - **PXness index** — trade-off between performance and Xorness via parameter γ ∈ [0,1]
 
 ## 🔬 Case study
